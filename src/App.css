@@ -1,4 +1,12 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +27,79 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+.icon{
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* p i{
+  margin-left: auto;
+  margin-right: auto;
+} */
+.li-item{
+  display: inline;
+}
+.foot{
+  padding: 20px;
+  background-color: #1c1c1d;
+}
+.foot .row .address{
+  /* s */
+}
+.foot .row .address {
+  font-family: 'Crimson Pro', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.foot .row .address .contact-info {
+  font-family: 'Crimson Pro', sans-serif;
+  text-transform: uppercase; 
+  color: white; 
+}
+.foot .row .address .phone-info {
+  font-family: 'Crimson Pro', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+ul.list{
+  padding: 0px;
+  /* margin-right: 30px; */
+}
+.foot .row .list li{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: white;
+}
+.foot .row .right{
+  padding-left: 25px;
+  font-family: 'Crimson Pro', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.foot .bottom{
+  font-family: 'Crimson Pro', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+hr{
+  border-top: 1px solid white;
+}
+/* card body */
+.ficons li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+}
+ul.ficons.text-center{
+  padding-left: 0px;
+}
+.creator{
+  margin-left: 55px;;
 }
